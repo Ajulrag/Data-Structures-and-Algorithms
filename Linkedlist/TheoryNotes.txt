@@ -1,0 +1,24 @@
+LINKEDLLIST
+-----------------------------------
+
+=> Linked list is a linear data structure that includes a series of connected nodes.
+
+=> Each node consists of a value and a pointer,that pointer points to the next node.
+
+=> It’s not a continuous memory allocation. 
+
+=> So traversal is necessary to access value.
+
+=> 3 types:
+
+    1.Singly linked list :
+           o Each node containes a value and  a pointer. That pointer holds the address of the next node.
+           o And the last node contains a value and a null value.
+
+    2.Doubly linked list :
+           o Each node contains a value and two pointers. 
+           o A pointer points to the next node and the other one points to the previous node.
+
+    3.Circular linked list
+           o Circular linked list are the variation of a linked list. 
+           o In which the last node points to the first node.

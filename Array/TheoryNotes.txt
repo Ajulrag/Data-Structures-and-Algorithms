@@ -1,0 +1,11 @@
+ARRAY
+-------------------------
+=> Array is a data structure where values or items are placed in a linear order, which means the memory assigned to each item is contiguous.
+
+=> The data type of an array is the same for all the elements present in it.
+
+=> With the contiguous memory allocation, it becomes easier to find out the memory location of any element in the array by just knowing the first memory location and adding the offset.
+
+=> Each and every data accessing is easy through indexing
+
+=> Array using 4 bytes for one element .
