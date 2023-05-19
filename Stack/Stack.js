@@ -34,7 +34,7 @@ const stack = new Stack();
 stack.push(8);
 stack.push(9);
 stack.push(5);
-stack.print();
+stack.size();
 
 console.log(stack.pop());
 stack.print()

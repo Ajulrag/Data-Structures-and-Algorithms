@@ -30,4 +30,4 @@ function mergeSort(arr) {
   // Example usage
   const arr = [8, 3, 5, 1, -9, 2, 7, -4];
   const sortedArr = mergeSort(arr);
-  console.log(sortedArr);
+  console.log("sorted Array",sortedArr);
