@@ -1,1 +1,1 @@
-while(swapped)
+sortedArray.forEach((el, index)=> arr[index]= el)
