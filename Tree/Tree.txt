@@ -1,0 +1,22 @@
+TREE
+--------------------
+=> It is a hierarchical data structure that consist of nodes connected by edges(Typically a node stores data value). 
+
+=> It is a non-linear data structure.
+
+=> In linear data structure, the time required to search is propotional to the size of the data structure.
+
+=> Tree however, owing to the non-linear nature allow quicker and easier access to the data.
+
+=> A tree will not contain any loops or cycles.
+
+
+
+USAGES:
+    * File system of directory structure.
+    * A family tree.
+    * An organisation tree.
+    * DOM
+    * Chat bots
+
+
