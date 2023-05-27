@@ -1,3 +1,5 @@
+/* TRAVERSING (INORDER,PREORDER,POSTORDER)
+---------------------------------------------------------*/
 class Node{
     constructor(value) {
         this.value = value
@@ -46,6 +48,20 @@ class BST {
             this.preOrder(root.right)
         }
     }
+    inOrder(root) {
+        if(root) {
+            this.inOrder(root.left);
+            console.log(root.value);
+            this.inOrder(root.right);
+        }
+    }
+    postOrder(root) {
+        if(root) {
+            this.postOrder(root.left);
+            this.postOrder(root.right);
+            console.log(root.value);
+        }
+    }
 }
 
 
@@ -59,4 +75,34 @@ bst.insert(7)
 console.log("---------PREORDER---------");
 bst.preOrder(bst.root)
 console.log("==========================");
+console.log("---------INORDER----------");
+bst.inOrder(bst.root)
+console.log("==========================");
+console.log("---------POSTORDER--------");
+bst.postOrder(bst.root)
+console.log("==========================");
+
+//-----------OUTPUT---------
+/*---------PREORDER---------
+10
+1
+6
+7
+15
+==========================
+---------INORDER----------
+1
+6
+7
+10
+15
+==========================
+---------POSTORDER--------
+7
+6
+1
+15
+10
+==========================*/
+
 
