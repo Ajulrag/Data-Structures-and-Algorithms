@@ -19,3 +19,21 @@ Types:-
         -> A graph can be traversed in either direction.
         -> The absence of an arrow tells us that the graph is Undirected.
 
+Type of Graph
+--------------------
+o Null graph        : When there is no edge is there.
+o Trivial graph     : When graph have only one node.
+o Undirected graph  : Bi-direction of edge.
+o Directed graph    : Edges have the directions
+o Cycle graph       : Degree of each vertex us two.
+o Cyclic graph      : Graph contain at least on cycle
+o Weighted graph    : graph which has cost of travel to another vertex.
+o Connected graph
+o Disconnected graph
+
+
+Implementaion of Graph
+------------------------
+The graph can be implemented in two ways
+-> Adjacency matrix
+-> Adjacency list
