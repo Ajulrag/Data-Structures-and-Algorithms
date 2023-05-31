@@ -1,0 +1,13 @@
+Trie
+---------------
+
+=> Trie data structure is defined as a tree based data structure that is used for storing some collection of string.
+
+=> The word derived from retrieval which means finding something.
+
+Applications:-
+-------------
+    o Auto complete.
+    o Spell checking.
+    o Ip routing
+    o Text compression

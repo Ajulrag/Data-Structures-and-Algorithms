@@ -75,3 +75,17 @@ Traversal on BST:-
                 b. Read the nodes value 
                 c. Enqueue the nodes left child if it exists
                 d. Enqueue the nodes right child if it exists
+
+
+
+Application of tree:-
+-------------------
+    o Spanning tree : Shortest path routes to direct the packets to the destination.
+
+    o Binary search tree : Maintain sorted stream of data.
+
+    o Heap : Tree data structure helps to represent the data in the form of array to implement priority queue.
+
+    o AI : Decision trees and other tree-based models are commonly used in machine learning and artificial intelligence to make predictions and classify data.
+    
+    o Database : Some databases use trees to organize data for efficient searching and sorting.
